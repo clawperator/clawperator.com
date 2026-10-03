@@ -1,5 +1,7 @@
 # clawperator.com
 
+> **Clawperator is now [Androperator](https://androperator.com).** For the current project, visit [androperator/androperator](https://github.com/androperator/androperator). Existing users should read the [migration guide](https://github.com/androperator/androperator/blob/main/docs/migration-to-androperator.md). This repository preserves the former Clawperator website.
+
 Preserved Clawperator landing site, extracted from `androperator/androperator`.
 
 ## Build and preview

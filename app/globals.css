@@ -1721,3 +1721,17 @@ body {
     border-radius: 16px;
   }
 }
+
+.migration-banner {
+  padding: 1rem max(1rem, calc((100% - 1120px) / 2));
+  background: #fff0d6;
+  color: #452b12;
+  border-top: 4px solid #f15a32;
+  border-bottom: 2px solid #dc9b49;
+  line-height: 1.6;
+  overflow-wrap: anywhere;
+}
+
+.migration-banner p { margin: 0; }
+.migration-banner a { color: inherit; text-decoration: underline; }
+.migration-banner .migration-domain-note { margin-top: 0.25rem; font-size: 0.875rem; }

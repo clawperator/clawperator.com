@@ -95,7 +95,21 @@ export default function RootLayout({ children }) {
           dangerouslySetInnerHTML={{ __html: structuredDataJson }}
         />
       </head>
-      <body className={`${headingFont.variable} ${monoFont.variable}`}>{children}</body>
+      <body className={`${headingFont.variable} ${monoFont.variable}`}>
+        <aside className="migration-banner" aria-label="Clawperator migration notice">
+          <p><strong>Clawperator has evolved into <a href="https://androperator.com">Androperator</a>.</strong>{" "}
+            Visit <a href="https://androperator.com">androperator.com</a> or read the{" "}
+            <a href="https://github.com/androperator/androperator/blob/main/docs/migration-to-androperator.md">migration guide</a>.
+          </p>
+          <p>The <code>clawperator</code> npm package will no longer be updated. Only{" "}
+            <a href="https://www.npmjs.com/package/androperator"><code>androperator</code></a> will be supported going forward.
+          </p>
+          <p className="migration-domain-note">(If you want to make a godfather offer for this domain, contact{" "}
+            <a href="mailto:chris@actionlauncher.com">chris@actionlauncher.com</a>)
+          </p>
+        </aside>
+        {children}
+      </body>
     </html>
   );
 }
